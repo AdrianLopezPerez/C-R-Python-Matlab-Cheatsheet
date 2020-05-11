@@ -1,5 +1,5 @@
 # C++ / R / Python Cheatsheet
-## Conditions
+## Conditionals
 #### C++
 ```
 if (condition) {
@@ -23,12 +23,14 @@ if (condition) {
 }
 ```
 #### Python
+```
 if condition:
   // Statements
 elif condition:
   // Statements
 else:
   // Statements
+```
 ## Loops
 ### For
 #### C++
