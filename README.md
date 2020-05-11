@@ -35,7 +35,7 @@ else:
 ### For
 #### C++
 ```
-for (statement1; condition; statement2) {
+for (statement_onetime_initial; condition; statement_eachcycle_end) {
   // Statements
 }
 ```
