@@ -39,7 +39,6 @@ for (statement_onetime_initial; condition; statement_eachcycle_end) {
   // Statements
 }
 ```
-```statement1``` is executed only the first time the loop is executed. ```statement2``` is executed every time at the end of the loop.
 #### R
 ```
 for (value in sequence) {
