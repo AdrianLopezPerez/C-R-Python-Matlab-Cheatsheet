@@ -1,5 +1,64 @@
 # C++ / R / Python Cheatsheet
+#### Comments
+##### C++
+```
+// This is a comment
+```
+##### R
+```
+# This is a comment
+```
+##### Python
+```
+# This is a comment
+```
 ## Control flow
+#### Halt
+##### C++
+```
+#include <cstdlib>
+//Statements
+std::exit();
+```
+##### R
+```
+// Statements
+quit(save="ask")
+```
+##### Python
+```
+import sys
+// Statements
+sys.exit()
+```
+#### Switch
+##### C++
+```
+switch(expression) {
+  case value:
+    // Statements
+    break;
+  default:
+    // Statements
+    break;
+```
+##### R
+```
+switch (expression,
+        "value1" = "case1",
+        "value2" = "case2",
+        "default")
+        
+```
+##### Python
+```
+def switch(expression): 
+    switcher = { 
+        value1: "case1", 
+        value2: "case2", 
+    } 
+    return switcher.get(expression, "default") 
+```
 #### Conditional
 ##### C++
 ```
@@ -69,7 +128,6 @@ while (condition) {
 while condition:
   // Statements
 ```
-
 #### Do-while
 ##### C++
 ```
@@ -90,7 +148,6 @@ while True:
   // Statements
   if condition: break
 ```
-
 #### Title
 ##### C++
 ```
