@@ -14,19 +14,7 @@
 #### Comments
 | C++ | R | Python |
 | ------------- | ------------- | ------------- |
-| // This is a comment  | # This is a comment  | # This is a comment  |
-##### C++
-```
-// This is a comment
-```
-##### R
-```
-# This is a comment
-```
-##### Python
-```
-# This is a comment
-```
+| ```// This is a comment```  | ```# This is a comment```  | ```# This is a comment```  |
 ## Control flow
 #### Halt
 ##### C++
