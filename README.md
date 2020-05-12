@@ -21,11 +21,9 @@
 
 | C++ | R | Python |
 | ------------- | ------------- | ------------- |
-| ```
-#include <cstdlib>
+| ```#include <cstdlib>
 //Statements
-std::exit();
-``` | ```
+std::exit();``` | ```
 // Statements
 quit(save="ask")
 ``` | ```
