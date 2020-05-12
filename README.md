@@ -148,6 +148,32 @@ while True:
   // Statements
   if condition: break
 ```
+#### Break
+##### C++
+```
+break;
+```
+##### R
+```
+break
+```
+##### Python
+```
+break
+```
+#### Continue
+##### C++
+```
+continue;
+```
+##### R
+```
+next
+```
+##### Python
+```
+continue
+```
 #### Title
 ##### C++
 ```
