@@ -15,30 +15,14 @@
 
 | C++ | R | Python |
 | ------------- | ------------- | ------------- |
-| // This is a comment  | # This is a comment  | # This is a comment  |
+| ```// This is a comment```  | ```# This is a comment```  | ```# This is a comment```  |
 ## Control flow
 #### Halt
 
 | C++ | R | Python |
 | ------------- | ------------- | ------------- |
-| #include ```<cstdlib>```<br />//Statements<br />std::exit(); | // Statements<br />quit(save="ask")| import sys<br />// Statements<br /> sys.exit()|
-##### C++
-```
-#include <cstdlib>
-//Statements
-std::exit();
-```
-##### R
-```
-// Statements
-quit(save="ask")
-```
-##### Python
-```
-import sys
-// Statements
-sys.exit()
-```
+| ```#include <cstdlib>```<br />```//Statements```<br />```std::exit();``` | ```// Statements```<br />```quit(save="ask")```| ```import sys```<br />```// Statements```<br />```sys.exit()```|
+
 #### Switch
 ##### C++
 ```
