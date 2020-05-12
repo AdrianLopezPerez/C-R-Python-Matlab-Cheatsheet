@@ -20,12 +20,12 @@
 #### Halt
 
 | C++ | R | Python |
-| ------------- | ------------- | ------------- |
+| :------------- | :------------- | :------------- |
 | ```#include <cstdlib>```<br />```//Statements```<br />```std::exit();``` | ```// Statements```<br />```quit(save="ask")```| ```import sys```<br />```// Statements```<br />```sys.exit()```|
 #### Switch
 
 | C++ | R | Python |
-| ------------- | ------------- | ------------- |
+| :------------- | :------------- | :------------- |
 | ```switch(expression) {```<br />``` case value:```<br />```  // Statements```<br />```  break;```<br />``` default:```<br />```  // Statements```<br />```  break;``` | ```switch (expression,```<br />```        "value1" = "case1",```<br />```        "default"``` | ```def switch(expression):```<br />```    switcher = {```<br />```        value1: "case1",```<br />```    }```<br />```    return switcher.get(expression, "default")```|
 
 #### Conditional
