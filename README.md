@@ -1,6 +1,7 @@
 # C++ / R / Python Cheatsheet
-## Conditionals
-#### C++
+## Control flow
+### Conditions
+##### C++
 ```
 if (condition) {
   // Statements
@@ -12,7 +13,7 @@ else {
   // Statements
 }
 ```
-#### R
+##### R
 ```
 if (condition) {
   // Statements
@@ -22,7 +23,7 @@ if (condition) {
   // Statements
 }
 ```
-#### Python
+##### Python
 ```
 if condition:
   // Statements
@@ -31,75 +32,75 @@ elif condition:
 else:
   // Statements
 ```
-## Loops
-### For
-#### C++
+### Loops
+#### For
+##### C++
 ```
 for (statement_onetime_initial; condition; statement_eachcycle_end) {
   // Statements
 }
 ```
-#### R
+##### R
 ```
 for (value in sequence) {
   // Statements
 }
 ```
-#### Python
+##### Python
 ```
 for x in range(0,3):
   // Statements
 ```
-### While
-#### C++
+#### While
+##### C++
 ```
 while (condition) {
   // Statements
 }
 ```
-#### R
+##### R
 ```
 while (condition) {
   // Statements
 }
 ```
-#### Python
+##### Python
 ```
 while condition:
   // Statements
 ```
 
-### Do-while
-#### C++
+#### Do-while
+##### C++
 ```
 do {
   // Statements
 } while (condition);
 ```
-#### R
+##### R
 ```
 repeat {
   // Statements
   if (condition) { break }
 }
 ```
-#### Python
+##### Python
 ```
 while True:
   // Statements
   if condition: break
 ```
 
-## Title
-#### C++
+#### Title
+##### C++
 ```
 
 ```
-#### R
+##### R
 ```
 
 ```
-#### Python
+##### Python
 ```
 
 ```
