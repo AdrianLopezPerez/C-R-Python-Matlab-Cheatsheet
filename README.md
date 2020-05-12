@@ -11,6 +11,9 @@
     + [Do-while](#do-while)
     + [Break](#break)
     + [Continue](#continue)
+- [Functions](#functions)
+  * [Definition](#definition)
+  * [Return](#return)
 #### Comments
 ##### C++
 ```
@@ -185,4 +188,36 @@ next
 ##### Python
 ```
 continue
+```
+### Functions
+#### Definition
+##### C++
+```
+Type1 function_name(Type2 arguments) {
+ // Statements
+}
+```
+##### R
+```
+function_name <- function(arguments) {
+ # Statements
+}
+```
+##### Python
+```
+def function_name(arguments):
+ # Statements
+```
+#### Return
+##### C++
+```
+return value;
+```
+##### R
+```
+return(value)
+```
+##### Python
+```
+return value
 ```
