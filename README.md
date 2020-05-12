@@ -11,9 +11,6 @@
     + [Do-while](#do-while)
     + [Break](#break)
     + [Continue](#continue)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
 #### Comments
 ##### C++
 ```
@@ -188,17 +185,4 @@ next
 ##### Python
 ```
 continue
-```
-#### Title
-##### C++
-```
-
-```
-##### R
-```
-
-```
-##### Python
-```
-
 ```
