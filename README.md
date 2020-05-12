@@ -1,6 +1,6 @@
 # C++ / R / Python Cheatsheet
 ## Control flow
-### Conditions
+#### Conditional
 ##### C++
 ```
 if (condition) {
