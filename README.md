@@ -1,4 +1,19 @@
 # C++ / R / Python Cheatsheet
+## Table of contents
+- [Comments](#comments)
+- [Control flow](#control-flow)
+  * [Halt](#halt)
+  * [Switch](#switch)
+  * [Conditional](#conditional)
+  * [Loops](#loops)
+    + [For](#for)
+    + [While](#while)
+    + [Do-while](#do-while)
+    + [Break](#break)
+    + [Continue](#continue)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 #### Comments
 ##### C++
 ```
