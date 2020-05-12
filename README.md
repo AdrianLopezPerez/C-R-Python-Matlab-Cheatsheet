@@ -12,6 +12,9 @@
     + [Break](#break)
     + [Continue](#continue)
 #### Comments
+| C++ | R | Python |
+| ------------- | ------------- | ------------- |
+| // This is a comment  | # This is a comment  | # This is a comment  |
 ##### C++
 ```
 // This is a comment
