@@ -17,6 +17,20 @@
 | ```// This is a comment```  | ```# This is a comment```  | ```# This is a comment```  |
 ## Control flow
 #### Halt
+| C++ | R | Python |
+| ------------- | ------------- | ------------- |
+| ```
+#include <cstdlib>
+//Statements
+std::exit();
+``` | ```
+// Statements
+quit(save="ask")
+``` | ```
+import sys
+// Statements
+sys.exit()
+``` |
 ##### C++
 ```
 #include <cstdlib>
