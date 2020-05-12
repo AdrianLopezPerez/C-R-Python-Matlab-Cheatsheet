@@ -14,6 +14,8 @@
 - [Functions](#functions)
   * [Definition](#definition)
   * [Return](#return)
+- [Data structures](#data-structures)
+  * [Array](#array)
 #### Comments
 ##### C++
 ```
@@ -220,4 +222,18 @@ return(value)
 ##### Python
 ```
 return value
+```
+### Data structures
+#### Array
+##### C++
+```
+std::array<Type,n_elements> array_name = {1,2,3...};
+```
+##### R
+```
+array_name <- array(c(vector1,vector2...),dim = c(row,col,depth))
+```
+##### Python
+```
+array_name = [1,2,3...]
 ```
