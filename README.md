@@ -22,35 +22,12 @@
 | C++ | R | Python |
 | ------------- | ------------- | ------------- |
 | ```#include <cstdlib>```<br />```//Statements```<br />```std::exit();``` | ```// Statements```<br />```quit(save="ask")```| ```import sys```<br />```// Statements```<br />```sys.exit()```|
-
 #### Switch
-##### C++
-```
-switch(expression) {
-  case value:
-    // Statements
-    break;
-  default:
-    // Statements
-    break;
-```
-##### R
-```
-switch (expression,
-        "value1" = "case1",
-        "value2" = "case2",
-        "default")
-        
-```
-##### Python
-```
-def switch(expression): 
-    switcher = { 
-        value1: "case1", 
-        value2: "case2", 
-    } 
-    return switcher.get(expression, "default") 
-```
+
+| C++ | R | Python |
+| ------------- | ------------- | ------------- |
+| ```switch(expression) {```<br />``` case value:```<br />```  // Statements```<br />```  break;```<br />``` default:```<br />```  // Statements```<br />```  break;``` | ```switch (expression,```<br />```        "value1" = "case1",```<br />```        "default"``` | ```def switch(expression):```<br />```    switcher = {```<br />```        value1: "case1",```<br />```    }```<br />```    return switcher.get(expression, "default")```|
+
 #### Conditional
 ##### C++
 ```
