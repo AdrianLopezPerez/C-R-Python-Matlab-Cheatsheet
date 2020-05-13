@@ -17,6 +17,7 @@
   * [Return](#return)
 - [Data structures](#data-structures)
   * [Array](#array)
+  * [Matrix](#matrix)
 ### Comments
 #### C++
 ```
