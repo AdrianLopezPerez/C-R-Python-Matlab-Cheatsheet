@@ -1,8 +1,9 @@
-# C++ / R / Python Cheatsheet
+# C++ / R / Python / Matlab Cheatsheet
 ## Table of contents
 - [Comments](#comments)
 - [Control flow](#control-flow)
   * [Halt](#halt)
+  * [Pause](#pause)
   * [Switch](#switch)
   * [Conditional](#conditional)
   * [Loops](#loops)
@@ -29,6 +30,10 @@
 ```
 # This is a comment
 ```
+##### Matlab
+```
+% This is a comment
+```
 ## Control flow
 #### Halt
 ##### C++
@@ -39,14 +44,34 @@ std::exit();
 ```
 ##### R
 ```
-// Statements
+# Statements
 quit(save="ask")
 ```
 ##### Python
 ```
 import sys
-// Statements
+# Statements
 sys.exit()
+```
+##### Matlab
+```
+quit
+```
+#### Pause
+##### C++
+Depends on operating system. See my repository ```Miscellaneous```.
+##### R
+```
+Sys.sleep(time)
+```
+##### Python
+```
+import time
+time.sleep(time)
+```
+##### Matlab
+```
+pause(time)
 ```
 #### Switch
 ##### C++
@@ -76,6 +101,15 @@ def switch(expression):
     } 
     return switcher.get(expression, "default") 
 ```
+##### Matlab
+```
+switch expression
+  case value
+    % Statements
+  otherwise
+    % Statements
+end
+```
 #### Conditional
 ##### C++
 ```
@@ -92,21 +126,31 @@ else {
 ##### R
 ```
 if (condition) {
-  // Statements
+  # Statements
 } else if (condition) {
-  // Statements
+  # Statements
 } else {
-  // Statements
+  # Statements
 }
 ```
 ##### Python
 ```
-if condition:
-  // Statements
-elif condition:
-  // Statements
+if condition1:
+  # Statements
+elif condition2:
+  # Statements
 else:
-  // Statements
+  # Statements
+```
+##### Matlab
+```
+if condition1
+ % Statements
+elseif condition2
+ % Statements
+else
+ % Statements
+end
 ```
 ### Loops
 #### For
@@ -119,13 +163,13 @@ for (statement_onetime_initial; condition; statement_eachcycle_end) {
 ##### R
 ```
 for (value in sequence) {
-  // Statements
+  # Statements
 }
 ```
 ##### Python
 ```
 for x in range(0,3):
-  // Statements
+  # Statements
 ```
 #### While
 ##### C++
@@ -137,13 +181,13 @@ while (condition) {
 ##### R
 ```
 while (condition) {
-  // Statements
+  # Statements
 }
 ```
 ##### Python
 ```
 while condition:
-  // Statements
+  # Statements
 ```
 #### Do-while
 ##### C++
@@ -155,14 +199,14 @@ do {
 ##### R
 ```
 repeat {
-  // Statements
+  # Statements
   if (condition) { break }
 }
 ```
 ##### Python
 ```
 while True:
-  // Statements
+  # Statements
   if condition: break
 ```
 #### Break
