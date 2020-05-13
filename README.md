@@ -171,6 +171,12 @@ for (value in sequence) {
 for x in range(0,3):
   # Statements
 ```
+##### Matlab
+```
+for index = values
+ % Statements
+end
+```
 #### While
 ##### C++
 ```
@@ -188,6 +194,12 @@ while (condition) {
 ```
 while condition:
   # Statements
+```
+##### Matlab
+```
+while expression
+ % Statements
+end
 ```
 #### Do-while
 ##### C++
@@ -209,6 +221,14 @@ while True:
   # Statements
   if condition: break
 ```
+##### Matlab
+```
+while 1
+ % Statements
+ if condition
+  break
+end
+```
 #### Break
 ##### C++
 ```
@@ -222,6 +242,10 @@ break
 ```
 break
 ```
+##### Matlab
+```
+break
+```
 #### Continue
 ##### C++
 ```
@@ -232,6 +256,10 @@ continue;
 next
 ```
 ##### Python
+```
+continue
+```
+##### Matlab
 ```
 continue
 ```
@@ -254,6 +282,13 @@ function_name <- function(arguments) {
 def function_name(arguments):
  # Statements
 ```
+##### Matlab
+```
+function output_vector = function_name(input_vector)
+ % Statements
+ y = result
+end
+```
 #### Return
 ##### C++
 ```
@@ -267,11 +302,18 @@ return(value)
 ```
 return value
 ```
+##### Matlab
+In Matlab, ```return``` exits the scope.
 ### Data structures
 #### Array
 ##### C++
+If dimensions are known in compile time:
 ```
 std::array<Type,n_elements> array_name = {1,2,3...};
+```
+If dimensions are known in run time:
+```
+std::vector<Type> array_name;
 ```
 ##### R
 ```
@@ -280,4 +322,30 @@ array_name <- array(c(vector1,vector2...),dim = c(row,col,depth))
 ##### Python
 ```
 array_name = [1,2,3...]
+```
+##### Matlab
+```
+array_name = [1 2 3 ...]
+```
+#### Matrix
+##### C++
+If dimensions are known in compile time:
+```
+std::array<std::array<Type,n_cols>,n_rows> matrix_name = {{1,2,3...},{1,2,3...},...};
+```
+If dimensions are known in run time:
+```
+std::vector<std::vector<Type>> matrix_name;
+```
+##### R
+```
+matrix_name <- matrix(c(vector_col1,vector_col2...),nrow = n,ncol = m)
+```
+##### Python
+```
+array_name = [1,2,3...]
+```
+##### Matlab
+```
+matrix_name = [1 2 3; 1 2 3;...]
 ```
