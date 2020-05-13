@@ -1,5 +1,5 @@
 # C++ / R / Python / Matlab Cheatsheet
-## Table of contents
+# Table of contents
 - [Comments](#comments)
 - [Control flow](#control-flow)
   * [Halt](#halt)
@@ -17,64 +17,64 @@
   * [Return](#return)
 - [Data structures](#data-structures)
   * [Array](#array)
-#### Comments
-##### C++
+### Comments
+#### C++
 ```
 // This is a comment
 ```
-##### R
+#### R
 ```
 # This is a comment
 ```
-##### Python
+#### Python
 ```
 # This is a comment
 ```
-##### Matlab
+#### Matlab
 ```
 % This is a comment
 ```
-## Control flow
-#### Halt
-##### C++
+# Control flow
+### Halt
+#### C++
 ```
 #include <cstdlib>
 //Statements
 std::exit();
 ```
-##### R
+#### R
 ```
 # Statements
 quit(save="ask")
 ```
-##### Python
+#### Python
 ```
 import sys
 # Statements
 sys.exit()
 ```
-##### Matlab
+#### Matlab
 ```
 quit
 ```
-#### Pause
-##### C++
+### Pause
+#### C++
 Depends on operating system. See my repository ```Miscellaneous```.
-##### R
+#### R
 ```
 Sys.sleep(time)
 ```
-##### Python
+#### Python
 ```
 import time
 time.sleep(time)
 ```
-##### Matlab
+#### Matlab
 ```
 pause(time)
 ```
-#### Switch
-##### C++
+### Switch
+#### C++
 ```
 switch(expression) {
   case value:
@@ -84,7 +84,7 @@ switch(expression) {
     // Statements
     break;
 ```
-##### R
+#### R
 ```
 switch (expression,
         "value1" = "case1",
@@ -92,7 +92,7 @@ switch (expression,
         "default")
         
 ```
-##### Python
+#### Python
 ```
 def switch(expression): 
     switcher = { 
@@ -101,7 +101,7 @@ def switch(expression):
     } 
     return switcher.get(expression, "default") 
 ```
-##### Matlab
+#### Matlab
 ```
 switch expression
   case value
@@ -110,8 +110,8 @@ switch expression
     % Statements
 end
 ```
-#### Conditional
-##### C++
+### Conditional
+#### C++
 ```
 if (condition) {
   // Statements
@@ -123,7 +123,7 @@ else {
   // Statements
 }
 ```
-##### R
+#### R
 ```
 if (condition) {
   # Statements
@@ -133,7 +133,7 @@ if (condition) {
   # Statements
 }
 ```
-##### Python
+#### Python
 ```
 if condition1:
   # Statements
@@ -142,7 +142,7 @@ elif condition2:
 else:
   # Statements
 ```
-##### Matlab
+#### Matlab
 ```
 if condition1
  % Statements
@@ -152,76 +152,76 @@ else
  % Statements
 end
 ```
-### Loops
-#### For
-##### C++
+## Loops
+### For
+#### C++
 ```
 for (statement_onetime_initial; condition; statement_eachcycle_end) {
   // Statements
 }
 ```
-##### R
+#### R
 ```
 for (value in sequence) {
   # Statements
 }
 ```
-##### Python
+#### Python
 ```
 for x in range(0,3):
   # Statements
 ```
-##### Matlab
+#### Matlab
 ```
 for index = values
  % Statements
 end
 ```
-#### While
-##### C++
+### While
+#### C++
 ```
 while (condition) {
   // Statements
 }
 ```
-##### R
+#### R
 ```
 while (condition) {
   # Statements
 }
 ```
-##### Python
+#### Python
 ```
 while condition:
   # Statements
 ```
-##### Matlab
+#### Matlab
 ```
 while expression
  % Statements
 end
 ```
-#### Do-while
-##### C++
+### Do-while
+#### C++
 ```
 do {
   // Statements
 } while (condition);
 ```
-##### R
+#### R
 ```
 repeat {
   # Statements
   if (condition) { break }
 }
 ```
-##### Python
+#### Python
 ```
 while True:
   # Statements
   if condition: break
 ```
-##### Matlab
+#### Matlab
 ```
 while 1
  % Statements
@@ -229,84 +229,84 @@ while 1
   break
 end
 ```
-#### Break
-##### C++
+### Break
+#### C++
 ```
 break;
 ```
-##### R
+#### R
 ```
 break
 ```
-##### Python
+#### Python
+```
+reak
+```
+#### Matlab
 ```
 break
 ```
-##### Matlab
-```
-break
-```
-#### Continue
-##### C++
+### Continue
+#### C++
 ```
 continue;
 ```
-##### R
+#### R
 ```
 next
 ```
-##### Python
+#### Python
 ```
 continue
 ```
-##### Matlab
+#### Matlab
 ```
 continue
 ```
-### Functions
-#### Definition
-##### C++
+## Functions
+### Definition
+#### C++
 ```
 Type1 function_name(Type2 arguments) {
  // Statements
 }
 ```
-##### R
+#### R
 ```
 function_name <- function(arguments) {
  # Statements
 }
 ```
-##### Python
+#### Python
 ```
 def function_name(arguments):
  # Statements
 ```
-##### Matlab
+#### Matlab
 ```
 function output_vector = function_name(input_vector)
  % Statements
  y = result
 end
 ```
-#### Return
-##### C++
+### Return
+#### C++
 ```
 return value;
 ```
-##### R
+#### R
 ```
 return(value)
 ```
-##### Python
+#### Python
 ```
 return value
 ```
-##### Matlab
+#### Matlab
 In Matlab, ```return``` exits the scope.
-### Data structures
-#### Array
-##### C++
+## Data structures
+### Array
+#### C++
 If dimensions are known in compile time:
 ```
 std::array<Type,n_elements> array_name = {1,2,3...};
@@ -315,20 +315,20 @@ If dimensions are known in run time:
 ```
 std::vector<Type> array_name;
 ```
-##### R
+#### R
 ```
 array_name <- array(c(vector1,vector2...),dim = c(row,col,depth))
 ```
-##### Python
+#### Python
 ```
 array_name = [1,2,3...]
 ```
-##### Matlab
+#### Matlab
 ```
 array_name = [1 2 3 ...]
 ```
-#### Matrix
-##### C++
+### Matrix
+#### C++
 If dimensions are known in compile time:
 ```
 std::array<std::array<Type,n_cols>,n_rows> matrix_name = {{1,2,3...},{1,2,3...},...};
@@ -337,15 +337,15 @@ If dimensions are known in run time:
 ```
 std::vector<std::vector<Type>> matrix_name;
 ```
-##### R
+#### R
 ```
 matrix_name <- matrix(c(vector_col1,vector_col2...),nrow = n,ncol = m)
 ```
-##### Python
+#### Python
 ```
 array_name = [1,2,3...]
 ```
-##### Matlab
+#### Matlab
 ```
 matrix_name = [1 2 3; 1 2 3;...]
 ```
