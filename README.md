@@ -241,7 +241,7 @@ break
 ```
 #### Python
 ```
-reak
+break
 ```
 #### Matlab
 ```
